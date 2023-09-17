@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
 	int x;
@@ -12,6 +13,7 @@ int main()
 	z = y*y;
 	a = 1.0*x/z;
 	printf("ÄãµÄbmiÎª£º%lf",a);
+	system("pause");
 
 
 	return 0;
